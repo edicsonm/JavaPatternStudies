@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="626c1ffa-593f-4fe3-a6d7-d4fa71c83d70" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/abstractFactoryPattern/AbstractFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/abstractFactoryPattern/AbstractFactoryPatternDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/abstractFactoryPattern/Blue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/abstractFactoryPattern/Color.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/abstractFactoryPattern/ColorFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/abstractFactoryPattern/FactoryProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/abstractFactoryPattern/Green.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/abstractFactoryPattern/Red.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/abstractFactoryPattern/ShapeFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Bottle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/BuilderPatternDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Burger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/ChickenBurger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Coke.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/ColdDrink.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Item.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Meal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/MealBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Packing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Pepsi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/VegBurger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Wrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/singletonPattern/SingleObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/singletonPattern/SingletonPatternDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Circle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/PrototypePatternDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Rectangle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Shape.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/ShapeCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Square.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaPatternStudies.iws" />
@@ -52,128 +34,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Packing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Packing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ColdDrink.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/ColdDrink.java">
+      <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="48" />
               <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VegBurger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/VegBurger.java">
+      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChickenBurger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/ChickenBurger.java">
+      <file leaf-file-name="ShapeCache.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/ShapeCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="221">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#209#224#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Coke.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Coke.java">
+      <file leaf-file-name="PrototypePatternDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/PrototypePatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-              <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pepsi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Pepsi.java">
+      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="85">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
               <folding>
                 <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Meal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Meal.java">
+      <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="119">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#201#207#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MealBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/MealBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuilderPatternDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/BuilderPatternDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -184,6 +124,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Singleton" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -234,6 +176,12 @@
         <option value="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/BuilderPatternDemo.java" />
         <option value="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/ColdDrink.java" />
         <option value="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Pepsi.java" />
+        <option value="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Shape.java" />
+        <option value="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Rectangle.java" />
+        <option value="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Square.java" />
+        <option value="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Circle.kt" />
+        <option value="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Circle.java" />
+        <option value="$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/ShapeCache.java" />
       </list>
     </option>
   </component>
@@ -361,6 +309,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="edimoto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaPatternStudies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edimoto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototypePattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -901,7 +879,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480028334365</updated>
-      <workItem from="1480028344588" duration="9320000" />
+      <workItem from="1480028344588" duration="10475000" />
     </task>
     <task id="LOCAL-00001" summary="Commit after include FactoryPattern Sources.">
       <created>1480029925428</created>
@@ -914,10 +892,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9320000" />
+    <option name="totallyTimeSpent" value="10475000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -928,13 +906,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31709957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31709957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18443497" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1240,16 +1218,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Meal.java">
+    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk-8u60-windows-x64/jre/lib/rt.jar!/java/lang/Cloneable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#201#207#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/BuilderPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,33 +1263,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/ColdDrink.java">
+    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Meal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Coke.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#201#207#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1304,10 +1288,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/BuilderPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/Coke.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/builderPattern/ColdDrink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Circle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="48" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/ShapeCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="e#209#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern/src/main/java/au/com/edimoto/prototypePattern/PrototypePatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
           <folding />
         </state>
       </provider>
